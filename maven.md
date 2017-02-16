@@ -28,3 +28,8 @@ mvn dependency:list
 ```
 mvn dependency:tree
 ```
+
+##8.导出所有POM文件中的jar
+```
+mvn dependency:copy-dependencies
+```
